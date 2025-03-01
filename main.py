@@ -47,8 +47,8 @@ async def handler(event):
         modified_message = (
             f"Захожу в {position} по {coin_name} \n"
             f"Зашел по цене: {average_price}\n\n"
-            f"Binance: https://www.binance.com/ru/futures/{coin_name}USDT\n"
-            f"OKX: https://www.okx.com/ru/trade-swap/{coin_name}-usdt-swap"
+            f"Binance: binance.com/ru/futures/{coin_name}USDT\n"
+            f"OKX: okx.com/ru/trade-swap/{coin_name}-usdt-swap"
         )
         await client.send_message(CHANNEL_NAME, modified_message)
 
